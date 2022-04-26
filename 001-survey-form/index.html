@@ -9,31 +9,67 @@
 </head>
 <body>
        <div id="container">
-              <h1 id="title">NETFLİX</h1>
+              <h1 id="title"> NET<span id="flix" >FLİX</span></h1>
               <p id="description">Thank you for signing up at Netflix. Tell us more about yourself</p>
+
 
               <form action="" id="survey-form">
                      <div class="box">
-                            <label for="">Name</label>
-                            <input type="text" placeholder="Enter your name">
+                            <label class="l" for="name">Name</label>
+                            <br>
+                            <input type="text" placeholder="Enter your name" class="place1">
                      </div>
                      <div class="box">
-                            <label for="">Age</label>
-                            <input type="number" placeholder="Age">
+                            <label class="l" for="age">Age</label>
+                            <br>
+                            <input type="number" placeholder="Age" class="place1">
                      </div>
                      <div class="box">
-                            <label for="">Email</label>
-                            <input type="email" placeholder="Enter your email">
+                            <label class="l" for="mail">Email</label>
+                            <br>
+                            <input type="email" placeholder="Enter your email" class="place1">
                      </div>
 
                      <div class="box">
-                            <label for="">Content Type</label>
-                            <select name="" id="">
-                                   <option value="Series"></option>
-                                   <option value="Movies"></option>
-                                   <option value="Animations"></option>
+                            <label class="l" for="type">Content Type</label>
+                            <br>
+                            <select name="" id="type">
+                                   <option value="">Series</option>
+                                   <option value="">Films</option>
+                                   <option value="">Documentaries</option>
                             </select>
                      </div>
+                     <div class="box">
+                            <h5>Movie Type</h5>
+                            <input type="checkbox" name="" id="comedy">
+                            <label class="l" for="comedy">Comedy</label>
+                            <br>
+                            <input type="checkbox" name="" id="action">
+                            <label class="l" for="action">Action</label>
+                            <br>
+                            <input type="checkbox" name="" id="romence">
+                            <label class="l" for="romence">Romence</label>
+                     </div>
+                     <div class="box">
+                            <h5>Gender</h5>
+                            <input type="radio" name="gender" id="Male">
+                            <label class="l" for="Male">Male</label>
+                            <br>
+                            
+                            <input type="radio" name="gender" id="Female">
+                            <label class="l" for="Female">Female</label>
+                            <br>
+                            
+                            <input type="radio" name="gender" id="Other">
+                            <label class="l" for="Other">Other</label>
+                     </div>
+                     <br>
+                     <div class="box">
+                            <label class="l" for="feedback">Feed Back</label>
+                            <br>
+                            <textarea name="" id="feedback" style="resize: none; width: 75% ;" placeholder="Any comment"></textarea>
+                     </div>
+                     <input type="submit" value="Submit" id="submit">
               </form>
        </div>
 
